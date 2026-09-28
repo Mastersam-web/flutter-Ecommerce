@@ -1,0 +1,36 @@
+name: firebase_ecommerce
+description: "Application e-commerce Flutter + Firebase (client / vendeur)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+  firebase_storage: ^13.6.0
+
+  # Utilitaires
+  provider: ^6.1.2
+  image_picker: ^1.1.2
+  url_launcher: ^6.3.1
+  intl: ^0.20.3
+  imgbb_uploader: ^0.0.4
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
